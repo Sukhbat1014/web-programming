@@ -1,0 +1,15 @@
+table{
+	font-family: Tahoma;
+	font-size: 20px;
+}
+.otherDay{
+	color: gray;
+}
+
+.selected{
+	
+	background: green;
+}
+td:hover{
+	color:red;
+}

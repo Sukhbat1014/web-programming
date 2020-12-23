@@ -1,0 +1,85 @@
+@media only screen and (max-width:400px){
+
+}
+body{
+	
+	background-color: #41b3a3;
+}
+h1{
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+table {
+	background-color:#eee;
+	border:1px solid #aaa;
+	border-collapse:collapse;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	width: 500px;
+	height:400px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 2px 2px 5px grey;
+}
+thead {
+	background-color:white
+}
+th{
+	font-size:11px;
+	padding:3px;
+	text-align:center
+}
+.title{
+	text-align:center;
+	font-weight: bold;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+th{
+	background:#dddddd;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	font-weight:bold;
+	color:#555555;
+}
+.weekend {
+    background: #b5cfe9;
+}
+.otherWeekendDay{
+	background: #b5cfe9;
+	color:#bbbbbb;
+}
+.today{
+	background:#f9621a;
+	text-align:center;
+	font-weight:bold;
+	color:#D50000;
+	border-radius: 1em;
+}
+td.otherDay{
+	color:#bbbbbb;
+}
+
+.nextMonth,.title,.previousMonth,.nextYear,.previousYear{
+    color: #f9621a;
+}
+.selected{
+	font-weight:bold;
+	background-color:#c38d9e;
+	color:#D50000;
+	
+	border-radius: 1em;
+}
+td:hover:not(.title){
+	background-color:#34ABFA;
+	cursor:pointer;
+	border-radius: 1em;
+}
+.textDate{
+	background-color:blue;
+	height: 10px; 
+}
+
+
